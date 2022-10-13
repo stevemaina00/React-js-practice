@@ -17,7 +17,7 @@ import Display from './Display'
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Welcome name="Steve" age="35" />} />
+          <Route index element={<Welcome name="Steve" age="25" />} />
           <Route path="List" element={<List />} />
           <Route path="Condition" element={<Condition />} />
           <Route path="Form" element={<Form />} />
