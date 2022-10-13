@@ -1,10 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
+import '../src/App.css'
 
-const Layout = () => {
+
+function Layout(){
   return (
-    <>
+    <div className="Nav">
       <nav>
-        <ul>
+        <ul  className="Navb">
           <li>
             <Link to="/">Welcome</Link>
           </li>
@@ -20,11 +22,14 @@ const Layout = () => {
           <li>
             <Link to="/Timer">Timer</Link>
           </li>
+          <li>
+            <Link to="/Display">Display</Link>
+          </li>
         </ul>
       </nav>
 
       <Outlet />
-    </>
+    </div>
   )
 };
 

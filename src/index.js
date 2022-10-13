@@ -11,6 +11,7 @@ import Condition from './Condition';
 import NoPage from './NoPage';
 import Form from './Form';
 import Timer from './Timer';
+import Display from './Display'
  export default function App1(){
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ import Timer from './Timer';
           <Route path="Condition" element={<Condition />} />
           <Route path="Form" element={<Form />} />
           <Route path="Timer" element={<Timer />} />
+          <Route path="Display" element={<Display />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

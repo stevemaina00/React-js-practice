@@ -7,7 +7,31 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Timer{
 
+  justify-items: center;
+  color: white;
+}
+.Nav{
+  box-sizing: border-box;
+  
+}
+body{
+  box-sizing: border-box;
+  background-color: green;
+}
+.Navb{
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+ box-sizing: border-box;
+ height: 50%;
+ width: 100%;
+ background-color: #e4e4e4;
+ margin-top: -1px;
+  
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
