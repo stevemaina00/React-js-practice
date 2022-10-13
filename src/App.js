@@ -2,6 +2,7 @@
 // import Condition from './Condition';
 // import List from './List';
 import Layout from './Layout';
+import Timer from './Timer';
 
 
 import Form from './Form';
@@ -19,6 +20,7 @@ function App(){
       {/* <List /> */}
       <Form />
       <Layout />
+      <Timer />
   
   
 

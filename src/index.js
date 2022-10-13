@@ -10,15 +10,17 @@ import Welcome from './Welcome';
 import Condition from './Condition';
 import NoPage from './NoPage';
 import Form from './Form';
+import Timer from './Timer';
  export default function App1(){
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Welcome />} />
+          <Route index element={<Welcome name="Steve" age="35" />} />
           <Route path="List" element={<List />} />
           <Route path="Condition" element={<Condition />} />
           <Route path="Form" element={<Form />} />
+          <Route path="Timer" element={<Timer />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

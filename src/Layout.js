@@ -17,6 +17,9 @@ const Layout = () => {
           <li>
             <Link to="/Form">Form</Link>
           </li>
+          <li>
+            <Link to="/Timer">Timer</Link>
+          </li>
         </ul>
       </nav>
 
